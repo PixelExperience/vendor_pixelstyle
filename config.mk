@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
     vendor/pixelstyle/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml
 
+# Set Pixel blue light theme on Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.theme_id=5
+
 # Include package overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/pixelstyle/overlay/common/
