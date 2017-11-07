@@ -34,5 +34,5 @@ PRODUCT_COPY_FILES += \
 
 # Include package overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/pixelstyle/overlay/
+    vendor/pixelstyle/overlay/common/
 
