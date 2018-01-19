@@ -16,6 +16,7 @@
 PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     NexusWallpapersStubPrebuilt2017 \
+    SoundPickerPrebuilt \
     WallpaperPickerGooglePrebuilt \
     WallpapersUsTwo
 
