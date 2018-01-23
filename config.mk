@@ -15,10 +15,16 @@
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
-    NexusWallpapersStubPrebuilt2017 \
     SoundPickerPrebuilt \
-    WallpaperPickerGooglePrebuilt \
+    WallpaperPickerGooglePrebuilt
+
+TARGET_MINIMAL_APPS ?= false
+
+ifeq ($(TARGET_MINIMAL_APPS), false)
+PRODUCT_PACKAGES += \
+    NexusWallpapersStubPrebuilt2017 \
     WallpapersUsTwo
+endif
 
 # build.prop entrys
 PRODUCT_PROPERTY_OVERRIDES += \
