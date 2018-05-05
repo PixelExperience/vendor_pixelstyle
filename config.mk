@@ -65,3 +65,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/pixelstyle/overlay/common/
 
+# GoogleCamera framework
+PRODUCT_PACKAGES += \
+    com.google.android.camera.experimental2017
+PRODUCT_COPY_FILES += \
+    vendor/pixelstyle/etc/permissions/com.google.android.camera.experimental2017.xml:system/etc/permissions/com.google.android.camera.experimental2017.xml
