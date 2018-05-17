@@ -62,7 +62,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
 
 # Include package overlays
-PRODUCT_PACKAGE_OVERLAYS += \
+DEVICE_PACKAGE_OVERLAYS += \
     vendor/pixelstyle/overlay/common/
 
 # GoogleCamera framework
