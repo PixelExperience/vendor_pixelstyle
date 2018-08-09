@@ -37,10 +37,6 @@
     <string name="config_headlineFontFeatureSettings">ss03</string>
     <string name="config_headlineFontFamilyMedium">google-sans-medium</string>
     <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
-    <string name="config_helpPackageNameKey">genie-eng:app_pkg_name</string>
-    <string name="config_helpPackageNameValue">com.google.android.settings.gphone</string>
-    <string name="config_helpIntentExtraKey">EXTRA_PSD_KEYS</string>
-    <string name="config_helpIntentNameKey">EXTRA_PSD_VALUES</string>
     <bool name="config_buttonTextAllCaps">false</bool>
     <bool name="config_unplugTurnsOnScreen">true</bool>
     <bool name="config_sendPackageName">true</bool>
