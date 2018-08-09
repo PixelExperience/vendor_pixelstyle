@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
     WallpaperPickerGooglePrebuilt \
     NexusLauncherPrebuilt \
     TimeZoneDataPrebuilt \
-    TurboPrebuilt \
     WellbeingPrebuilt \
     MatchmakerPrebuilt
 
