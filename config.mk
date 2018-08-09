@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     TimeZoneDataPrebuilt \
     TurboPrebuilt \
-    WellbeingPrebuilt
+    WellbeingPrebuilt \
+    MatchmakerPrebuilt
 
 TARGET_MINIMAL_APPS ?= false
 
