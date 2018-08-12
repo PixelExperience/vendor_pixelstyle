@@ -75,5 +75,6 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Include package overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pixelstyle/overlay
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/pixelstyle/overlay/common/
