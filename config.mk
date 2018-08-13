@@ -19,7 +19,8 @@ PRODUCT_PACKAGES += \
     NexusLauncherPrebuilt \
     TimeZoneDataPrebuilt \
     WellbeingPrebuilt \
-    MatchmakerPrebuilt
+    MatchmakerPrebuilt \
+    MarkupGoogle
 
 TARGET_MINIMAL_APPS ?= false
 
@@ -64,6 +65,11 @@ PRODUCT_COPY_FILES += \
 # Set Pixel blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.theme_id=5
+
+# Markup libs
+PRODUCT_COPY_FILES += \
+    vendor/pixelstyle/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
+    vendor/pixelstyle/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
 
 # Include package overlays
 DEVICE_PACKAGE_OVERLAYS += \
