@@ -58,9 +58,7 @@ ADDITIONAL_FONTS_FILE := vendor/pixelstyle/fonts/google-sans.xml
 
 # Pixel sysconfig
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
-    vendor/pixelstyle/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml \
-    vendor/pixelstyle/etc/sysconfig/pixel_experience_2017.xml:system/etc/sysconfig/pixel_experience_2017.xml
+    vendor/pixelstyle/etc/sysconfig/pixel.xml:system/etc/sysconfig/pixel.xml
 
 # Set Pixel blue light theme on Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
