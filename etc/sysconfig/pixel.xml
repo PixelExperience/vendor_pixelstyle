@@ -13,7 +13,7 @@
     <feature name="com.google.android.feature.ZERO_TOUCH" />
 
     <!-- This defines the Photos preload feature for specifically the 2017 Pixel devices. -->
-    <feature name="com.google.android.apps.photos.PIXEL_2017_PRELOAD" />
+    <!--feature name="com.google.android.apps.photos.PIXEL_2017_PRELOAD" /-->
     <!-- This is meant to be the canonical feature identifying 2017 and newer Nexus devices. -->
     <feature name="com.google.android.feature.PIXEL_2017_EXPERIENCE" />
 </config>
