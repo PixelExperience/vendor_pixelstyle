@@ -67,8 +67,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Markup libs
 PRODUCT_COPY_FILES += \
-    vendor/pixelstyle/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
+    vendor/pixelstyle/lib/libsketchology_native.so:system/lib/libsketchology_native.so
+
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
+PRODUCT_COPY_FILES += \
     vendor/pixelstyle/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
+endif
 
 # Include package overlays
 DEVICE_PACKAGE_OVERLAYS += \
