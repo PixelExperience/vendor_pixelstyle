@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     TimeZoneDataPrebuilt \
     WellbeingPrebuilt \
     MatchmakerPrebuilt \
-    MarkupGoogle
+    MarkupGoogle \
+    WeatherClient
 
 TARGET_MINIMAL_APPS ?= false
 
@@ -77,3 +78,7 @@ endif
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pixelstyle/overlay
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/pixelstyle/overlay/common/
+
+# Weather
+PRODUCT_COPY_FILES += \
+    vendor/pixelstyle/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml
