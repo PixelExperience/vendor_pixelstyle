@@ -26,7 +26,7 @@ TARGET_MINIMAL_APPS ?= false
 
 ifeq ($(TARGET_MINIMAL_APPS), false)
 PRODUCT_PACKAGES += \
-    NexusWallpapersStubPrebuilt2017
+    NexusWallpapersStubPrebuilt2018
 endif
 
 # build.prop entrys
