@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeviceDefault.Autofill" parent="Theme.Material.Autofill.Light">
+        <item name="colorAccent">@color/custom_accent_color</item>
+    </style>
+    <style name="Theme.DeviceDefault.Autofill.Save" parent="Theme.Material.Autofill.Save.Light">
+        <item name="colorAccent">@color/custom_accent_color</item>
+    </style>
+</resources>
