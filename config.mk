@@ -40,22 +40,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
-    PRODUCT_COPY_FILES += \
-        vendor/pixelstyle/media/bootanimation_720.zip:system/media/bootanimation.zip \
-        vendor/pixelstyle/media/bootanimation-dark_720.zip:system/media/bootanimation-dark.zip
+     PRODUCT_COPY_FILES += vendor/pixelstyle/media/bootanimation_720.zip:system/media/bootanimation.zip
 else ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
-    PRODUCT_COPY_FILES += \
-        vendor/pixelstyle/media/bootanimation_1080.zip:system/media/bootanimation.zip \
-        vendor/pixelstyle/media/bootanimation-dark_1080.zip:system/media/bootanimation-dark.zip
+     PRODUCT_COPY_FILES += vendor/pixelstyle/media/bootanimation_1080.zip:system/media/bootanimation.zip
 else ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
-    PRODUCT_COPY_FILES += \
-        vendor/pixelstyle/media/bootanimation_1440.zip:system/media/bootanimation.zip \
-        vendor/pixelstyle/media/bootanimation-dark_1440.zip:system/media/bootanimation-dark.zip
+     PRODUCT_COPY_FILES += vendor/pixelstyle/media/bootanimation_1440.zip:system/media/bootanimation.zip
 else
-    $(warning "PixelStyle: TARGET_BOOT_ANIMATION_RES is undefined, assuming 1080p")
-    PRODUCT_COPY_FILES += \
-        vendor/pixelstyle/media/bootanimation_1080.zip:system/media/bootanimation.zip \
-        vendor/pixelstyle/media/bootanimation-dark_1080.zip:system/media/bootanimation-dark.zip
+     $(warning "PixelStyle: TARGET_BOOT_ANIMATION_RES is undefined, assuming 1080p")
+     PRODUCT_COPY_FILES += vendor/pixelstyle/media/bootanimation_1080.zip:system/media/bootanimation.zip
 endif
 
 # Fonts
