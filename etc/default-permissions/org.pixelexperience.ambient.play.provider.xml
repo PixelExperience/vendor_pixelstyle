@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<exceptions>
-
-    <exception package="org.pixelexperience.ambient.play.provider">
-        <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
-    </exception>
-
-</exceptions>
