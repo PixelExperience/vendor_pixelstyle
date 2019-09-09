@@ -19,6 +19,11 @@ PRODUCT_PACKAGES += \
     NexusLauncherRelease \
     NexusWallpapersStubPrebuilt2018
 
+ifeq ($(TARGET_GAPPS_ARCH),arm64)
+PRODUCT_PACKAGES += \
+    MatchmakerPrebuiltPixel3
+endif
+
 # build.prop entrys
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.wallpapers_loc_request_suw=true
