@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Screenshot editing default activity.  Must handle ACTION_EDIT image/png intents.
-         Blank sends the user to the Chooser first.
-         This name is in the ComponentName flattened format (package/class)  -->
-    <string name="config_screenshotEditor" translatable="false">com.google.android.markup/com.google.android.markup.AnnotateActivity</string>
+    <string name="quick_settings_tiles_default">wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,night</string>
+    <integer name="config_search_panel_view_vibration_duration">10</integer>
+    <integer name="config_showTemperatureWarning">1</integer>
+    <integer name="config_showUsbPortAlarm">1</integer>
+    <bool name="config_vibrateOnIconAnimation">true</bool>
 </resources>
