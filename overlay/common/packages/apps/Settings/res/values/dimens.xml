@@ -15,6 +15,7 @@
 -->
 
 <resources>
-    <dimen name="search_bar_corner_radius">24.0dip</dimen>
-    <dimen name="suggestion_card_corner_radius">8.0dip</dimen>
+    <dimen name="search_bar_corner_radius">8dp</dimen>
+    <dimen name="search_bar_margin">8dp</dimen>
+    <dimen name="search_bar_card_elevation">1dp</dimen>
 </resources>
