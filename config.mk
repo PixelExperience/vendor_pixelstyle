@@ -17,13 +17,14 @@ LOCAL_PATH := vendor/pixelstyle
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     NexusLauncherRelease \
-    NexusWallpapersStubPrebuilt2018 \
+    NexusWallpapersStubPrebuilt2019 \
+    PixelThemesStub2019 \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
-    MatchmakerPrebuiltPixel3
+    MatchmakerPrebuiltPixel4
 endif
 
 # build.prop entrys
