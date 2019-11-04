@@ -20,7 +20,8 @@ PRODUCT_PACKAGES += \
     NexusWallpapersStubPrebuilt2019 \
     PixelThemesStub2019 \
     SafetyHubPrebuilt \
-    SettingsIntelligenceGooglePrebuilt
+    SettingsIntelligenceGooglePrebuilt \
+    PixelDocumentsUIGoogleOverlay
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 PRODUCT_PACKAGES += \
