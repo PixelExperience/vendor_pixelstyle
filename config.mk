@@ -63,6 +63,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.show_support_link_in_deferred_setup=false \
     setupwizard.theme=glif_v3_light
 
+# Gestures
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+
 # IME
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.bs_theme=true \
