@@ -28,6 +28,7 @@
     <bool name="config_use_legacy_suggestion">false</bool>
     <bool name="config_show_avatar_in_homepage">true</bool>
     <bool name="config_has_help">true</bool>
+    <bool name="config_night_light_suggestion_enabled">false</bool>
 
     <!-- Help -->
     <string name="help_uri_about">intent:#Intent;action=com.google.android.gms.googlehelp.LAUNCH;S.EXTRA_CONTEXT=android_about;end</string>
