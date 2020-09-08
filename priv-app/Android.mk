@@ -39,7 +39,6 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := SettingsIntelligenceGooglePrebuilt
-LOCAL_OVERRIDES_PACKAGES := SettingsIntelligence
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE)/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
